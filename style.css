@@ -1,0 +1,290 @@
+*{margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+ border : border-box;
+ 
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navlogo{
+ height: 50px;
+ width: 113px;
+ margin-left: -75px;
+}
+
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width: 100%
+
+}
+
+
+
+.border{
+    border: 2px solid transparent
+}
+.border:hover {
+    border: 1.5px solid white;
+   
+
+}
+.add-1{
+    font-size: 12px 
+;
+color: #CCCCCC
+;
+margin-left: 15px;
+}
+p.add-2{
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 3px;
+
+}
+.location-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-search{
+    display: flex;
+    background-color:  #f39d5cea;
+    width: 500px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 14px;
+    border: none;
+}
+
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.country-name{
+    background-color: #0f1111;
+    color: #ffffff;
+    border: none;
+}
+.country{
+    display: flex;
+}
+
+.nav-1{
+    font-size: 14px;
+}
+.nav-2{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.nav-cart i{
+    font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.panel{
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    color: white;
+    
+
+}
+.panel-all{
+    padding:8px 9px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 5px 0px 6px;
+}
+
+.panel-options{
+  display: flex;
+  justify-content: space-evenly;
+  margin:10px;
+  align-items: center;
+  
+  font-size: 14px;
+  width: 70%;
+  }
+  
+
+
+  .background-section{
+    background-image: url("kitchen\ fav1.png");
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+.msg{
+    background-color: white;
+    color:black;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width:80%;
+    margin-bottom:25px ;
+    
+}
+.msg a{
+    color:#007185;
+    
+}
+.msg a:hover{
+    color:#cc6212ea;
+    text-decoration: underline;
+}
+
+/** shop-area **/
+.box {
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    border: none;
+    
+}
+
+.shop-area{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(248, 215, 220);
+}
+
+
+.box-img1{
+    height: 300px;
+    padding: 20px 0px 15px;
+    width: 300px;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+.box-img3{
+    
+    height: 275px;
+    padding: 20px 0px 15px;
+    width: 300px;
+    
+    margin-top: 10px;
+    margin-bottom:23px;
+    
+}
+.box-img4{
+    
+    height: 275px;
+    padding: 20px 0px 15px;
+    width: 300px;
+    
+    margin-top: 10px;
+    margin-bottom: 23px;
+    
+}
+.box-1content{
+    margin-top: 2px;
+    margin-left: 25px;
+}
+h2{
+    font-size: 21px;
+    margin-top: 10px;
+}
+.dining-img{
+    height: 120px;
+    width:150px;
+}
+.home-img{height: 120px;
+    width:150px;
+
+}
+.kitchen-img{
+    height: 120px;
+    width:150px;
+}
+.health-img{
+    height: 120px;
+    width:150px;
+}
+.row-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 8px;
+   margin-left: -15px;
+
+}
+.row-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7px;
+    margin-left: -20px;
+    
+}
+.box-2content{
+    margin-top: 2px;
+    margin-left: 20px;}
+.box2-last{
+    margin-top: 63px;
+}
+.box2-end a :hover{
+    color:#cc6212ea;
+    text-decoration: underline;
+}
+
+.box-3content{
+    margin-top: 2px;
+    margin-left: 25px;
+}
+
+.box-4content{
+    margin-top: 2px;
+    margin-left: 25px;
+}
+
